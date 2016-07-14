@@ -13,7 +13,7 @@ public class NewTest {
 	  WebDriver driver=new ChromeDriver();
 	  //WebDriver driver=new FirefoxDriver();
 	  driver.get("http://www.facebook.com");
-	  //driver.findElement(By.id(""));
+	  driver.findElement(By.id(""));
 	  
   }
 }
