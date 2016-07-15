@@ -11,8 +11,10 @@ public class NewTest {
   public void f() {
 	  System.setProperty("webdriver.chrome.driver", "/Users/user/Downloads/chromedriver");
 	  WebDriver driver=new ChromeDriver();
+	  System.out.println("Jenkins project");
 	  //WebDriver driver=new FirefoxDriver();
 	  driver.get("http://www.facebook.com");
+	  System.out.println("facebook loaded");
 	  //driver.findElement(By.id(""));
 	  
   }
